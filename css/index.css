@@ -1,0 +1,20 @@
+img,mango.jpg{
+    width: 300px;
+}
+header {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.err {
+    grid-column: 6fr;
+    grid-row: 4fr;
+}
+.firstTray{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.secondTray{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
